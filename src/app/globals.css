@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+section.heroSection {
+  @apply grid;
+  grid-template-columns: .4fr .6fr;
+}
