@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <header className="flex items-center justify-between font-semibold ">
+      <header className="flex items-center justify-between font-semibold py-3 sticky top-0 z-50 isolation bg-white">
         {/* logo & App text */}
         <div className="text-2xl text-emerald-600">
           <Link href={""}>Food Court</Link>
