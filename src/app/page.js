@@ -1,13 +1,11 @@
 import Hero from "@/components/layout/Hero";
-import Image from "next/image";
+import HomeMenu from "@/components/layout/HomeMenu";
 
 export default function Home() {
   return (
     <>
     <Hero/>
-    <div className="h-96">
-
-    </div>
+    <HomeMenu/>
     </>
   );
 }
